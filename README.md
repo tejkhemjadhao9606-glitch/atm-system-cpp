@@ -1,4 +1,4 @@
-# ATM System - C++
+# 🏧 ATM System - C++
 
 A beginner-friendly C++ mini project implementing a console-based ATM management system. It provides an interactive text interface allowing users to create an account, deposit money, withdraw funds, and check their remaining balance.
 
@@ -6,11 +6,22 @@ A beginner-friendly C++ mini project implementing a console-based ATM management
 
 ## 📌 Features
 
-- **Account Setup:** Initialize a new account with an account number and starting deposit.
-- **Deposit Funds:** Add money directly to your account balance.
-- **Withdraw Funds:** Withdraw money with automatic validation to prevent overdrafts when balance is insufficient.
-- **Check Balance:** Instant balance inquiry at any point during execution.
-- **Interactive Menu:** Menu-driven loop (`do-while`) that runs continuously until the user chooses to exit.
+- Create a new bank account
+- Deposit money
+- Withdraw money with balance verification
+- Check current account balance
+- Menu-driven console interface
+
+---
+
+## 🧠 Concepts Used
+
+- Variables and Data Types
+- Standard Input/Output (`cin`, `cout`)
+- Conditional Statements (`if-else`)
+- `do-while` Loop Control
+- Basic Arithmetic Operations
+- Balance Validation (Insufficient funds handling)
 
 ---
 
@@ -21,12 +32,8 @@ A beginner-friendly C++ mini project implementing a console-based ATM management
 
 ---
 
-## 🚀 How to Run Locally
+## 🚀 How to Run
 
-### 1. Prerequisites
-Ensure you have a C++ compiler installed (such as `g++` / MinGW).
-
-### 2. Compile
-Open Git Bash or Command Prompt in the project folder and run:
+### 1. Compile
 ```bash
 g++ project2.cpp -o atm
